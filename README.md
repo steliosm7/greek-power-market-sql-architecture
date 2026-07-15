@@ -30,9 +30,5 @@ A dedicated schema for SQL Views that transform raw tables into engineered featu
 ### 📊 Visualization & Real-Time Monitoring
 The structured data from this warehouse feeds directly into Grafana for real-time market monitoring and portfolio risk assessment. 
 
-*(Example: Grafana Dashboard displaying Market Prices vs Actual System Load)*
+*(Example: Grafana Dashboard displaying Market Prices and ISP Requirements)*
 ![Grafana Market Dashboard Placeholder](grafana_dashboard.png)
-
-### 🚀 Usage
-1. Execute the `create_schemas_and_tables.sql` script in your PostgreSQL environment to generate the foundational architecture.
-2. The schema is designed to be continuously updated via automated Python ingestion pipelines connecting to HEnEx and IPTO APIs.
